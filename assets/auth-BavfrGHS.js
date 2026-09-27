@@ -1,1 +1,0 @@
-import{n as e,r as t}from"./getAvatar-B4FxWA6C.js";import"./betterAuth-QtZ8Cme5.js";var n=(n,r)=>e(t.post(`alt-auth/check_email`,{email:n},{headers:{"x-captcha-response":r}}),{success:!1,error:!1}),r=n=>e(t.post(`user/register_push`,n));export{r as n,n as t};
